@@ -9,36 +9,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/main.min.css"/>
 </head>
 <body>
-    <header class="main-header">
-        <div class="container main-header-container">
-            <a class="logo link" href="" lang="en"><span class="color-web">Web</span>Studio</a>
-            <nav class="top-navigation">
+    <header class="main-header main-header__size">
+        <div class="container main-header__container">
+            <a class="logo link" href="./index.html" lang="en"><span class="color-web">Web</span>Studio</a>
+            <nav class="main-nav">
                 <ul class="menu list">
-                    <li class="menu-item">
-                        <a class="menu-link link" href="./index.html">Студия</a>
+                    <li class="menu__item">
+                        <a class="menu__link link" href="./index.html">Студия</a>
                     </li>
-                    <li class="menu-item">
-                        <a class="menu-link-top link" href="">Портфолио</a>
+                    <li class="menu__item">
+                        <a class="menu__link__top link" href="./portfolio.html">Портфолио</a>
                     </li>
-                    <li class="menu-item">
-                        <a class="menu-link link" href="#info">Контакты</a>
+                    <li class="menu__item">
+                        <a class="menu__link link" href="#info">Контакты</a>
                     </li>
                 </ul>
             </nav>
             <ul class="contact-address list">
-                <li class="contact-infomation">
+                <li class="contact__infomation">
                     <a class="contact link" href="mailto:info@devstudio.com">
-                        <svg class="contact-mail">
+                        <svg class="contact__mail">
                             <use href="./svg/sprite.svg#mail"></use>
                         </svg>
                     info@devstudio.com</a>
                 </li>
-                <li class="contact-infomation">
+                <li class="contact__infomation">
                     <a class="contact link" href="tel:+380961111111">
-                        <svg class="contact-phone">
+                        <svg class="contact__phone">
                             <use href="./svg/sprite.svg#phone"></use>
                         </svg>
                     +38 096 111 11 11</a>
@@ -49,7 +49,7 @@
     <main>
         <section class="portfolio saction">
             <div class="container">
-                <h2 class="title-close" hidden>Портфоліо</h2> 
+                <h2 class="visually-hidden">Портфоліо</h2> 
                 <ul class="description-btn list">
                     <li class="list-btn">
                         <button class="top-button button" type="button">Все</button>
